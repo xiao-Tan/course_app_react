@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, Prompt } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function CourseList(props) {
   return (
@@ -25,7 +25,6 @@ function CourseList(props) {
           ))}
         </tbody>
       </table>
-      <Prompt when={true} message="Are you sure to leave this page?" />
     </React.Fragment>
   );
 }

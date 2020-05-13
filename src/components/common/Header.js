@@ -5,7 +5,7 @@ function Header() {
   const activeStyle = { color: "black" };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-info">
       <NavLink className="navbar-brand" exact to="/">
         Navbar
       </NavLink>

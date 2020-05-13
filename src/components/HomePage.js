@@ -6,7 +6,7 @@ function HomePage() {
     <div className="jumbotron">
       <h1>Pluralsight Administration</h1>
       <p>React Flux and web apps</p>
-      <Link to="/about" className="btn btn-primary">
+      <Link to="/about" className="btn btn-info">
         About
       </Link>
     </div>
