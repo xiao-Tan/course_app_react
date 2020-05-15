@@ -11,11 +11,14 @@ import {
 } from "react-router-dom";
 import PageNotFound from "./PageNotFound";
 import ManageCoursePage from "./ManageCoursePage";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
     <Router>
       <div className="container">
+        <ToastContainer autoClose={3000} hideProgressBar />
         <Header />
         <br />
         <Switch>
